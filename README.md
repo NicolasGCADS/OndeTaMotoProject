@@ -37,8 +37,11 @@ json
 --- 
 
 ## 🧑‍💻 Integrantes do Grupo
+
 Guilherme Romanholi Santos - RM557462
+
 Murilo Capristo - RM556794
+
 Nicolas Guinante Cavalcanti - RM557844
 
 
