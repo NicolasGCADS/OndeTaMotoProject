@@ -4,6 +4,24 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
 
 ---
 
+## 🏍️ Nome do Projeto:  OndeTáMoto?
+
+O projeto OndeTáMoto? nasceu a partir de uma demanda real da Mottu, uma empresa inovadora que atua no ramo de soluções para motofrete. Eles enfrentavam um desafio prático: como organizar de maneira eficiente e em tempo real o controle das motos dentro da garagem da empresa?
+
+A Mottu precisava de uma solução que fosse além das tradicionais planilhas e anotações manuais — algo que trouxesse mais visibilidade, agilidade e precisão no acompanhamento das motos que entram, saem e permanecem no espaço físico da garagem.
+
+Foi com esse desafio em mãos que desenvolvemos o OndeTáMoto?, uma solução tecnológica baseada em IoT (Internet das Coisas), pensada para oferecer controle automatizado, informação em tempo real e usabilidade prática para o dia a dia da operação.
+
+A dinâmica do sistema é simples, porém poderosa: cada moto da frota é equipada com uma tag inteligente, que funciona como um identificador exclusivo. Assim, toda movimentação é registrada instantaneamente, sem necessidade de intervenção manual.
+
+Esses dados são enviados para um aplicativo mobile, que centraliza todas as informações em uma interface amigável. A equipe da Mottu pode, com poucos toques na tela, visualizar o status de cada moto, saber onde ela está estacionada, identificar quais estão dentro ou fora da garagem e até categorizá-las conforme sua finalidade ou situação atual.
+
+O resultado é um sistema que promove mais organização, eficiência e segurança, além de reduzir erros humanos e retrabalhos. Com o OndeTáMoto?, a Mottu ganha uma solução sob medida para sua operação, com a tecnologia sendo utilizada de forma prática e inteligente para resolver um problema real.
+
+Mais do que um controle de motos, entregamos uma nova forma de gerir a frota com simplicidade, precisão e inovação.
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - [.NET 8](https://dotnet.microsoft.com/en-us/)
