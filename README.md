@@ -18,8 +18,10 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
 
 ## Como Rodar 
 
-1. Git clone https://github.com/NicolasGCADS/OndeTaMotoProject
-2. Selecione a pasta OndeTaMotoApi e selecione OndeTaMoto.sln para compilar o projeto completo
+1. Git clone https://github.com/NicolasGCADS/OndeTaMotoProject.git
+2. Selecione a pasta OndeTaMoto e selecione OndeTaMoto.sln para compilar o projeto completo
+3. Ao rodar o Crud, rode com HTTPS 
+4. Ao rodar o Crud com Swagger, rode com esse link http://localhost:5294/swagger/index.html
 
 ---
 
