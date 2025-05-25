@@ -1,4 +1,6 @@
-﻿@baseUrl = https://localhost:7164 
+﻿@baseUrl = https://localhost:7164
+
+###Rode em Https 
 
 ### 🟢 GET - Listar todas as motos
 GET {{baseUrl}}/api/Moto
