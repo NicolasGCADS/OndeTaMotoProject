@@ -1,4 +1,4 @@
-﻿@baseUrl = https://localhost:7164
+﻿@baseUrl = https://localhost:7164 
 
 ### 🟢 GET - Listar todas as motos
 GET {{baseUrl}}/api/Moto
@@ -12,7 +12,7 @@ Content-Type: application/json
   "id": 1,
   "nome": "mottu",
   "tag": "alomottu2",
-  "placa": 1236784
+  "placa": "1236784"
 }
 
 ### 🟡 GET - Obter moto por ID
@@ -32,5 +32,42 @@ Content-Type: application/json
 
 ### 🔴 DELETE - Remover moto por ID
 DELETE {{baseUrl}}/api/Moto/1
+Accept: application/json
+
+
+
+
+
+
+### 🟢 GET - Listar todos os usuários
+GET {{baseUrl}}/api/Usuario
+Accept: application/json
+
+### 🔵 POST - Criar um novo usuário
+POST {{baseUrl}}/api/Usuario
+Content-Type: application/json
+
+{
+  "id": 1,
+  "email": "usuario@email.com",
+  "senha": "123456"
+}
+
+### 🟡 GET - Obter usuário por ID
+GET {{baseUrl}}/api/Usuario/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar usuário por ID
+PUT {{baseUrl}}/api/Usuario/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "email": "usuario@atualizado.com",
+  "senha": "novaSenha123"
+}
+
+### 🔴 DELETE - Remover usuário por ID
+DELETE {{baseUrl}}/api/Usuario/1
 Accept: application/json
 

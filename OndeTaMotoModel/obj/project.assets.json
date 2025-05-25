@@ -2721,11 +2721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\C#\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
+      "projectUniqueName": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\.Net\\C#2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
       "projectName": "OndeTaMotoModel",
-      "projectPath": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\C#\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
+      "projectPath": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\.Net\\C#2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
       "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-      "outputPath": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\C#\\OndeTaMotoModel\\obj\\",
+      "outputPath": "D:\\Fiap\\Projeto\\2TDSPX\\Sprint1.2\\.Net\\C#2\\OndeTaMotoProject\\OndeTaMotoModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

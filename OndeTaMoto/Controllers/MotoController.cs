@@ -30,22 +30,22 @@ public class MotoController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] MotoModel moto)
+    public IActionResult Post([FromBody] MotoModel novaMoto)
     {
-        if (string.IsNullOrWhiteSpace(moto.Nome))
+        if (string.IsNullOrWhiteSpace(novaMoto.Nome))
             return BadRequest("Nome é obrigatório.");
 
-        var criado = _motoService.Criar(moto);
+        var criado = _motoService.Criar(novaMoto);
         return CreatedAtAction(nameof(Get), new { id = criado.Id }, criado);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] MotoModel moto)
+    public IActionResult Put(int id, [FromBody] MotoModel motoAtualizada)
     {
-        if (moto == null || moto.Id != id)
+        if (motoAtualizada == null || motoAtualizada.Id != id)
             return BadRequest("Dados inconsistentes.");
 
-        return _motoService.Atualizar(moto) ? NoContent() : NotFound();
+        return _motoService.Atualizar(motoAtualizada) ? NoContent() : NotFound();
     }
 
     [HttpDelete("{id}")]

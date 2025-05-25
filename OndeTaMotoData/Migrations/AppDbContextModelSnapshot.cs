@@ -33,8 +33,9 @@ namespace OndeTaMotoData.Migrations
                         .IsRequired()
                         .HasColumnType("NVARCHAR2(2000)");
 
-                    b.Property<int>("Placa")
-                        .HasColumnType("NUMBER(10)");
+                    b.Property<string>("Placa")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
 
                     b.Property<string>("Tag")
                         .IsRequired()
@@ -43,6 +44,27 @@ namespace OndeTaMotoData.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Motos");
+                });
+
+            modelBuilder.Entity("OndeTaMotoModel.UsuarioModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
                 });
 #pragma warning restore 612, 618
         }

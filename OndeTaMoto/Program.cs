@@ -26,6 +26,8 @@ builder.Services.AddDbContext<DbContext>(options =>
 
 builder.Services.AddScoped<MotoService>();
 
+builder.Services.AddScoped<UsuarioService>();
+
 var app = builder.Build();
 
 
