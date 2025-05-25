@@ -22,6 +22,25 @@ Mais do que um controle de motos, entregamos uma nova forma de gerir a frota com
 
 ---
 
+## 🔗 Rotas
+🔹 MotoController
+Método	Endpoint	Descrição
+GET	/api/moto	Lista todas as motos
+GET	/api/moto/{id}	Retorna moto por ID
+POST	/api/moto	Cria uma nova moto
+PUT	/api/moto/{id}	Atualiza uma moto
+DELETE	/api/moto/{id}	Remove uma moto
+
+🔹 UsuarioController
+Método	Endpoint	Descrição
+GET	/api/usuario	Lista todos os usuários
+GET	/api/usuario/{id}	Retorna usuário por ID
+POST	/api/usuario	Cria um novo usuário
+PUT	/api/usuario/{id}	Atualiza um usuário
+DELETE	/api/usuario/{id}	Remove um usuário
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - [.NET 8](https://dotnet.microsoft.com/en-us/)
