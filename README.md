@@ -34,5 +34,14 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
   "DefaultConnection": "Server=localhost;Database=OndeTaMotoDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
 
+--- 
+
+🧑‍💻 Integrantes do Grupo
+Guilherme Romanholi Santos - RM557462
+Murilo Capristo - RM556794
+Nicolas Guinante Cavalcanti - RM557844
+
+
+
 
 
