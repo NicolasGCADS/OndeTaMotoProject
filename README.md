@@ -4,7 +4,6 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
 
 ---
 
-
 ## 🚀 Tecnologias Utilizadas
 
 - [.NET 8](https://dotnet.microsoft.com/en-us/)
@@ -14,6 +13,13 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
 - Swagger (Swashbuckle)
 - Visual Studio 2022+
 - REST Client (ou Postman)
+
+---
+
+## Como Rodar 
+
+1. Git clone https://github.com/NicolasGCADS/OndeTaMotoProject
+2. Selecione a pasta OndeTaMotoApi e selecione OndeTaMoto.sln para compilar o projeto completo
 
 ---
 
