@@ -29,14 +29,14 @@ Este projeto é uma Web API desenvolvida em **ASP.NET Core**, que permite o cont
 
 1. No arquivo `appsettings.json` da pasta `OndeTaMotoApi`, configure sua string de conexão:
 
-```json
+json
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=OndeTaMotoDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
 
 --- 
 
-🧑‍💻 Integrantes do Grupo
+##🧑‍💻 Integrantes do Grupo
 Guilherme Romanholi Santos - RM557462
 Murilo Capristo - RM556794
 Nicolas Guinante Cavalcanti - RM557844
