@@ -26,6 +26,7 @@ Mais do que um controle de motos, entregamos uma nova forma de gerir a frota com
 🔹 MotoController
 
 Método	Endpoint	Descrição
+
 GET	/api/moto	Lista todas as motos
 
 GET	/api/moto/{id}	Retorna moto por ID
@@ -39,6 +40,7 @@ DELETE	/api/moto/{id}	Remove uma moto
 🔹 UsuarioController
 
 Método	Endpoint	Descrição
+
 GET	/api/usuario	Lista todos os usuários
 
 GET	/api/usuario/{id}	Retorna usuário por ID
