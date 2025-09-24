@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OndeTaMotoModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84bb19cfb263cccd2d10c9bd38e15172f9e13eeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dda67a804bf4f8ad0e249d91849eaedbf9cfe2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OndeTaMotoModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OndeTaMotoModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
