@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OndeTaMotoData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84bb19cfb263cccd2d10c9bd38e15172f9e13eeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfeadbdd1dba56da05d9edf2773b687d63b4595a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OndeTaMotoData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OndeTaMotoData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

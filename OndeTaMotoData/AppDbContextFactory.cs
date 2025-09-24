@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Design;
 using OndeTaMotoData;
 
-namespace LivroApi 
+namespace OndeTaMotoData 
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
