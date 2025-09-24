@@ -12,5 +12,6 @@ namespace OndeTaMotoData
 
         public DbSet<MotoModel> Motos { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<EstabelecimentoModel> Estabelecimentos { get; set; }
     }
 }

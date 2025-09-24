@@ -33,6 +33,7 @@ builder.Services.AddDbContext<DbContext>(options =>
 
 builder.Services.AddScoped<MotoService>();
 builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<EstabelecimentoService>();
 
 var app = builder.Build();
 

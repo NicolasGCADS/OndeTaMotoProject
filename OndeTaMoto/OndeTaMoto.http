@@ -2,6 +2,8 @@
 
 ###Rode em Https 
 
+###MOTO
+
 ### 🟢 GET - Listar todas as motos
 GET {{baseUrl}}/api/Moto
 Accept: application/json
@@ -37,8 +39,7 @@ DELETE {{baseUrl}}/api/Moto/1
 Accept: application/json
 
 
-
-
+###USUARIO
 
 
 ### 🟢 GET - Listar todos os usuários
