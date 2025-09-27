@@ -51,6 +51,24 @@ PUT	/api/usuario/{id}	Atualiza um usuário
 
 DELETE	/api/usuario/{id}	Remove um usuário
 
+🔹 EstabelecimentoController
+
+Método	Endpoint	Descrição
+GET	/api/estabelecimento	Lista todos os estabelecimentos
+GET	/api/estabelecimento/{id}	Retorna um estabelecimento por ID
+POST	/api/estabelecimento	Cria um novo estabelecimento
+PUT	/api/estabelecimento/{id}	Atualiza um estabelecimento
+DELETE	/api/estabelecimento/{id}	Remove um estabelecimento
+
+🔹 SetorController
+
+Método	Endpoint	Descrição
+GET	/api/setor	Lista todos os setores
+GET	/api/setor/{id}	Retorna um setor por ID
+POST	/api/setor	Cria um novo setor
+PUT	/api/setor/{id}	Atualiza um setor
+DELETE	/api/setor/{id}	Remove um setor
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -62,6 +80,7 @@ DELETE	/api/usuario/{id}	Remove um usuário
 - Swagger (Swashbuckle)
 - Visual Studio 2022+
 - REST Client (ou Postman)
+- DockerFile 
 
 ---
 
@@ -71,6 +90,9 @@ DELETE	/api/usuario/{id}	Remove um usuário
 2. Selecione a pasta OndeTaMoto e selecione OndeTaMoto.sln para compilar o projeto completo
 3. Ao rodar o Crud, rode com HTTPS 
 4. Ao rodar o Crud com Swagger, rode com esse link http://localhost:5294/swagger/index.html
+
+## Deploy do Swagger 
+http://191.235.235.207:5294/swagger/index.html
 
 ---
 
