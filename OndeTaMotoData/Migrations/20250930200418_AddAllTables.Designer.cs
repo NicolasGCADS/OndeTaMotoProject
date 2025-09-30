@@ -11,18 +11,38 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace OndeTaMotoData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250525020025_Usuario")]
-    partial class Usuario
+    [Migration("20250930200418_AddAllTables")]
+    partial class AddAllTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.5")
+                .HasAnnotation("ProductVersion", "9.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("OndeTaMotoModel.EstabelecimentoModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<int>("Tamanho")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estabelecimento");
+                });
 
             modelBuilder.Entity("OndeTaMotoModel.MotoModel", b =>
                 {
@@ -46,7 +66,27 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Motos");
+                    b.ToTable("Moto");
+                });
+
+            modelBuilder.Entity("OndeTaMotoModel.SetorModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("NVARCHAR2(2000)");
+
+                    b.Property<int>("Tamanho")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Setor");
                 });
 
             modelBuilder.Entity("OndeTaMotoModel.UsuarioModel", b =>
@@ -67,7 +107,7 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }

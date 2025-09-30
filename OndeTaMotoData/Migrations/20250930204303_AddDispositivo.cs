@@ -5,24 +5,23 @@
 namespace OndeTaMotoData.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class AddDispositivo : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Motos_OTM",
+                name: "Dispositivo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
                         .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
                     Nome = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
-                    Tag = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
-                    Placa = table.Column<int>(type: "NUMBER(10)", nullable: false)
+                    Ativo = table.Column<int>(type: "NUMBER(10)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Motos", x => x.Id);
+                    table.PrimaryKey("PK_Dispositivo", x => x.Id);
                 });
         }
 
@@ -30,7 +29,7 @@ namespace OndeTaMotoData.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Motos");
+                name: "Dispositivo");
         }
     }
 }

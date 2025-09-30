@@ -35,6 +35,7 @@ builder.Services.AddScoped<MotoService>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<EstabelecimentoService>();
 builder.Services.AddScoped<SetorService>();
+builder.Services.AddScoped<DispositivoService>();
 
 var app = builder.Build();
 

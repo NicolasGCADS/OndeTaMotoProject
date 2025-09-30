@@ -11,8 +11,8 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace OndeTaMotoData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250924185516_EstabSetor")]
-    partial class EstabSetor
+    [Migration("20250930200407_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,7 +41,7 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Estabelecimentos");
+                    b.ToTable("Estabelecimento");
                 });
 
             modelBuilder.Entity("OndeTaMotoModel.MotoModel", b =>
@@ -66,7 +66,7 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Motos");
+                    b.ToTable("Moto");
                 });
 
             modelBuilder.Entity("OndeTaMotoModel.SetorModel", b =>
@@ -86,7 +86,7 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Setores");
+                    b.ToTable("Setor");
                 });
 
             modelBuilder.Entity("OndeTaMotoModel.UsuarioModel", b =>
@@ -107,7 +107,7 @@ namespace OndeTaMotoData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }

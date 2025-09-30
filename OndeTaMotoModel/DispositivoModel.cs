@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace OndeTaMotoModel
 {
-    internal class DispositivoModel
+    public class DispositivoModel
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public required int Ativo { get; set; }
+
+
     }
 }

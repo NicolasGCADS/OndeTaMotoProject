@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m4qfYb6dvoI=",
+  "dgSpecHash": "rzIa7ElBEYY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
+  "projectFilePath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nguin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

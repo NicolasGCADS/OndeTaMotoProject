@@ -5283,11 +5283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
+      "projectUniqueName": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
       "projectName": "OndeTaMotoData",
-      "projectPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
+      "projectPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoData\\OndeTaMotoData.csproj",
       "packagesPath": "C:\\Users\\nguin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoData\\obj\\",
+      "outputPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5308,14 +5308,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoBusiness\\OndeTaMotoBusiness.csproj": {
-              "projectPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoBusiness\\OndeTaMotoBusiness.csproj"
+            "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoBusiness\\OndeTaMotoBusiness.csproj": {
+              "projectPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoBusiness\\OndeTaMotoBusiness.csproj"
             },
-            "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj": {
-              "projectPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj"
+            "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj": {
+              "projectPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj"
             },
-            "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMoto\\OndeTaMotoApi.csproj": {
-              "projectPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMoto\\OndeTaMotoApi.csproj"
+            "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMoto\\OndeTaMotoApi.csproj": {
+              "projectPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMoto\\OndeTaMotoApi.csproj"
             }
           }
         }

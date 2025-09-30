@@ -2721,11 +2721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
+      "projectUniqueName": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
       "projectName": "OndeTaMotoModel",
-      "projectPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
+      "projectPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoModel\\OndeTaMotoModel.csproj",
       "packagesPath": "C:\\Users\\nguin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguin\\Desktop\\ONDETAMOTOCERTO\\OndeTaMotoProject\\OndeTaMotoModel\\obj\\",
+      "outputPath": "C:\\Users\\nguin\\Desktop\\OndeTaMotocerto2\\OndeTaMotoProject\\OndeTaMotoModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
